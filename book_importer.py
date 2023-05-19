@@ -3,7 +3,6 @@ from gutenberg_cleaner import simple_cleaner
 import re
 
 class BookImporter:
-    
     def get_book(book_id):
         raw_book = gutenbergpy.textget.get_text_by_id(book_id)
         book_text = raw_book.decode('UTF-8')
@@ -21,12 +20,13 @@ class BookImporter:
 
         clean_book = re.sub(r'\[Transcriber.*?\]', '', clean_book, flags=re.DOTALL)
 
-        BookImporter.write_to_file(title, clean_book)
+        BookImporter.write_to_file(title.replace(' ', '_'), clean_book)
         return title, author, clean_book
 
     def write_to_file(book_name, book_text):
         with open(f'data/{book_name}.txt', 'w', encoding='UTF-8') as file:
             file.write(book_text)
+
 
 book_id = [43, 345, 41445, 209, 1513]
 book_data = []

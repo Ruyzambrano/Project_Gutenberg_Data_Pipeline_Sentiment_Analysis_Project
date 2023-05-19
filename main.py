@@ -2,17 +2,51 @@ import pandas as pd
 import spacy
 from book_importer import BookImporter
 
-jekyll_hyde = BookImporter.get_book(43, 'jekyll_hyde')
-dracula = BookImporter.get_book(345, 'dracula')
-frankenstein = BookImporter.get_book(41445, 'frankenstein')
-turn_of_the_screw = BookImporter.get_book(209, 'turn_of_the_screw')
 
-book_data = [
-    {'Author': 'Robert Louis Stevenson', 'Title': 'The Strange Case of Dr. Jekyll and Mr. Hyde', 'Published': '1886-01-05', 'Text': jekyll_hyde},
-    {'Author': 'Bram Stoker', 'Title': 'Dracula', 'Published': '1897-05-26', 'Text': dracula},
-    {'Author': 'Mary Shelley', 'Title': 'Frankenstein; or, The Modern Promethius', 'Published': '1818-01-01', 'Text': frankenstein},
-    {'Author': 'Henry James', 'Title': 'The Turn of the Screw', 'Published': '1898-10-01', 'Text': turn_of_the_screw},
-]
+
+book_id = [43, 345, 41445, 209, 1513]
+book_data = []
+for book in book_id:
+    title, author, text = BookImporter.get_book(book)
+    book_data.append({'Title': title, 'Author': author, 'Text': text})
+
+
+
 gothic_data = pd.DataFrame(book_data)
-gothic_data['Published'] = pd.to_datetime(gothic_data['Published'])
 gothic_data.info()
+
+
+print(gothic_data)
+
+
+nlp = spacy.load('en_core_web_lg')
+
+
+jekyll_hyde_doc = nlp(jekyll_hyde)
+jekyll_hyde_vectors = [token.vector for token in jekyll_hyde_doc]
+
+
+dracula_doc = nlp(dracula)
+dracula_vectors = [token.vector for token in dracula_doc]
+
+
+frankenstein_doc = nlp(frankenstein)
+frankenstein_vectors = [token.vector for token in frankenstein_doc]
+
+
+turn_of_the_screw_doc = nlp(turn_of_the_screw)
+turn_of_the_screw_vectors = [token.vector for token in turn_of_the_screw_doc]
+
+
+romeo_and_juliet_doc = nlp(romeo_and_juliet)
+romeo_and_juliet_vectors = [token.vector for token in romeo_and_juliet_doc]
+
+
+dracula_jekyll_similarity = dracula_doc.similarity(jekyll_hyde_doc)
+print(dracula_jekyll_similarity)
+
+
+romeo_dracula_similarity = dracula_doc.similarity(romeo_and_juliet_doc)
+print(romeo_dracula_similarity)
+
+
