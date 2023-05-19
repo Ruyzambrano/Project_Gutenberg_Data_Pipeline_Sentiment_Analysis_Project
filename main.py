@@ -1,4 +1,5 @@
 import pandas as pd
+import spacy
 from book_importer import BookImporter
 
 jekyll_hyde = BookImporter.get_book(43, 'jekyll_hyde')
