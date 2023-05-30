@@ -1,0 +1,101 @@
+Index,BookID,Title,Author,Review,FilePath
+0,null,To Kill a Mockingbird,Harper Lee,4.27,null
+1,1342.0,Pride and Prejudice,Jane Austen,4.28,data/Pride_and_Prejudice.txt
+2,58587.0,1984,George Orwell,4.19,data/1984.txt
+3,70333.0,The Lord of the Rings,J.R.R. Tolkien,4.52,data/The_Lord_of_the_Rings.txt
+4,64317.0,The Great Gatsby,F. Scott Fitzgerald,3.93,data/The_Great_Gatsby.txt
+5,1260.0,Jane Eyre,Charlotte Brontë,4.14,data/Jane_Eyre.txt
+6,146.0,The Little Prince,Antoine de Saint-Exupéry,4.32,data/The_Little_Prince.txt
+7,34175.0,Animal Farm,George Orwell,3.98,data/Animal_Farm.txt
+8,null,"The Hobbit (The Lord of the Rings, #0)",J.R.R. Tolkien,4.28,null
+9,null,The Catcher in the Rye,J.D. Salinger,3.80,null
+10,174.0,The Picture of Dorian Gray,Oscar Wilde,4.12,data/The_Picture_of_Dorian_Gray.txt
+11,null,Lord of the Flies,William Golding,3.69,null
+12,768.0,Wuthering Heights,Emily Brontë,3.88,data/Wuthering_Heights.txt
+13,37106.0,Little Women,Louisa May Alcott,4.14,data/Little_Women.txt
+14,39.0,"The Hitchhiker's Guide to the Galaxy (The Hitchhiker's Guide to the Galaxy, #1)",Douglas Adams,4.23,"data/The_Hitchhiker's_Guide_to_the_Galaxy_(The_Hitchhiker's_Guide_to_the_Galaxy,_#1).txt"
+15,null,Of Mice and Men,John Steinbeck,3.88,null
+16,null,Brave New World,Aldous Huxley,3.99,null
+17,null,Gone with the Wind,Margaret Mitchell,4.30,null
+18,1184.0,The Count of Monte Cristo,Alexandre Dumas,4.29,data/The_Count_of_Monte_Cristo.txt
+19,2554.0,Crime and Punishment,Fyodor Dostoevsky,4.26,data/Crime_and_Punishment.txt
+20,null,One Hundred Years of Solitude,Gabriel García Márquez,4.11,null
+21,135.0,Les Misérables,Victor Hugo,4.20,data/Les_Misérables.txt
+22,null,"The Handmaid’s Tale (The Handmaid's Tale, #1)",Margaret Atwood,4.13,null
+23,null,Frankenstein: The 1818 Text,Mary Wollstonecraft Shelley,3.85,null
+24,345.0,Dracula,Bram Stoker,4.01,data/Dracula.txt
+25,1399.0,Anna Karenina,Leo Tolstoy,4.08,data/Anna_Karenina.txt
+26,null,Memoirs of a Geisha,Arthur Golden,4.14,null
+27,null,The Grapes of Wrath,John Steinbeck,4.00,null
+28,32325.0,The Adventures of Huckleberry Finn,Mark Twain,3.83,data/The_Adventures_of_Huckleberry_Finn.txt
+29,1400.0,Great Expectations,Charles Dickens,3.79,data/Great_Expectations.txt
+30,161.0,Sense and Sensibility,Jane Austen,4.08,data/Sense_and_Sensibility.txt
+31,null,Slaughterhouse-Five,Kurt Vonnegut Jr.,4.09,null
+32,6867.0,Life of Pi,Yann Martel,3.93,data/Life_of_Pi.txt
+33,null,The Curious Incident of the Dog in the Night-Time,Mark Haddon,3.89,null
+34,1661.0,"The Adventures of Sherlock Holmes (Sherlock Holmes, #3)",Arthur Conan Doyle,4.30,"data/The_Adventures_of_Sherlock_Holmes_(Sherlock_Holmes,_#3).txt"
+35,876.0,Rebecca,Daphne du Maurier,4.24,data/Rebecca.txt
+36,null,Lolita,Vladimir Nabokov,3.88,null
+37,54652.0,The Bell Jar,Sylvia Plath,4.04,data/The_Bell_Jar.txt
+38,null,Catch-22,Joseph Heller,3.99,null
+39,13923.0,The Old Man and the Sea,Ernest Hemingway,3.80,data/The_Old_Man_and_the_Sea.txt
+40,25344.0,The Scarlet Letter,Nathaniel Hawthorne,3.43,data/The_Scarlet_Letter.txt
+41,null,One Flew Over the Cuckoo's Nest,Ken Kesey,4.20,null
+42,null,The Color Purple,Alice Walker,4.26,null
+43,2600.0,War and Peace,Leo Tolstoy,4.15,data/War_and_Peace.txt
+44,158.0,Emma,Jane Austen,4.04,data/Emma.txt
+45,46.0,A Christmas Carol,Charles Dickens,4.07,data/A_Christmas_Carol.txt
+46,2500.0,Siddhartha,Hermann Hesse,4.06,data/Siddhartha.txt
+47,null,Perfume: The Story of a Murderer,Patrick Süskind,4.03,null
+48,null,"Interview with the Vampire (The Vampire Chronicles, #1)",Anne Rice,4.01,null
+49,null,A Clockwork Orange,Anthony Burgess,4.00,null
+50,3186.0,The Stranger,Albert Camus,4.01,data/The_Stranger.txt
+51,120.0,Treasure Island,Robert Louis Stevenson,3.84,data/Treasure_Island.txt
+52,null,"The Shining (The Shining, #1)",Stephen King,4.26,null
+53,null,All Quiet on the Western Front,Erich Maria Remarque,4.05,null
+54,null,Never Let Me Go,Kazuo Ishiguro,3.84,null
+55,105.0,Persuasion,Jane Austen,4.15,data/Persuasion.txt
+56,43.0,Dr. Jekyll and Mr. Hyde,Robert Louis Stevenson,3.83,data/Dr._Jekyll_and_Mr._Hyde.txt
+57,null,The Poisonwood Bible,Barbara Kingsolver,4.09,null
+58,98.0,A Tale of Two Cities,Charles Dickens,3.86,data/A_Tale_of_Two_Cities.txt
+59,44609.0,In Cold Blood,Truman Capote,4.08,data/In_Cold_Blood.txt
+60,2852.0,"The Hound of the Baskervilles (Sherlock Holmes, #5)",Arthur Conan Doyle,4.13,"data/The_Hound_of_the_Baskervilles_(Sherlock_Holmes,_#5).txt"
+61,15.0,"Moby-Dick or, the Whale",Herman Melville,3.53,"data/Moby-Dick_or,_the_Whale.txt"
+62,28054.0,The Brothers Karamazov,Fyodor Dostoevsky,4.36,data/The_Brothers_Karamazov.txt
+63,35.0,The Time Machine,H.G. Wells,3.90,data/The_Time_Machine.txt
+64,null,A Prayer for Owen Meany,John Irving,4.24,null
+65,null,"The Godfather (The Godfather, #1)",Mario Puzo,4.38,null
+66,2413.0,Madame Bovary,Gustave Flaubert,3.70,data/Madame_Bovary.txt
+67,60819.0,The Name of the Rose,Umberto Eco,4.13,data/The_Name_of_the_Rose.txt
+68,null,Breakfast at Tiffany's and Three Stories,Truman Capote,3.85,null
+69,null,The Master and Margarita,Mikhail Bulgakov,4.29,null
+70,null,"Through the Looking-Glass and What Alice Found There (Alice's Adventures in Wonderland, #2)",Lewis Carroll,4.03,null
+71,50535.0,Atonement,Ian McEwan,3.93,data/Atonement.txt
+72,730.0,Oliver Twist,Charles Dickens,3.88,data/Oliver_Twist.txt
+73,47478.0,Middlesex,Jeffrey Eugenides,4.03,data/Middlesex.txt
+74,521.0,Robinson Crusoe,Daniel Defoe,3.68,data/Robinson_Crusoe.txt
+75,null,The Unbearable Lightness of Being,Milan Kundera,4.11,null
+76,null,"The Three Musketeers (The D'Artagnan Romances, #1)",Alexandre Dumas,4.09,null
+77,null,Gulliver's Travels: Travels into Several Remote Nations of the World.,Jonathan Swift,3.58,null
+78,null,"Watchmen (Watchmen, #1-12)",Alan Moore,4.37,null
+79,996.0,Don Quixote,Miguel de Cervantes Saavedra,3.89,data/Don_Quixote.txt
+80,36264.0,On the Road,Jack Kerouac,3.62,data/On_the_Road.txt
+81,203.0,Uncle Tom's Cabin,Harriet Beecher Stowe,3.90,data/Uncle_Tom's_Cabin.txt
+82,null,The House of the Spirits,Isabel Allende,4.27,null
+83,7849.0,The Trial,Franz Kafka,3.96,data/The_Trial.txt
+84,null,"Pippi Longstocking (Pippi Långstrump, #1)",Astrid Lindgren,4.15,null
+85,26050.0,Love in the Time of Cholera,Gabriel García Márquez,3.93,data/Love_in_the_Time_of_Cholera.txt
+86,64457.0,The Reader,Bernhard Schlink,3.77,data/The_Reader.txt
+87,67138.0,The Sun Also Rises,Ernest Hemingway,3.80,data/The_Sun_Also_Rises.txt
+88,null,The World According to Garp,John Irving,4.10,null
+89,19942.0,Candide,Voltaire,3.76,data/Candide.txt
+90,215.0,The Call of the Wild,Jack London,3.90,data/The_Call_of_the_Wild.txt
+91,null,The Hunchback of Notre-Dame,Victor Hugo,4.01,null
+92,null,Doctor Zhivago,Boris Pasternak,4.01,null
+93,34206.0,The Arabian Nights,Anonymous,4.05,data/The_Arabian_Nights.txt
+94,141.0,Mansfield Park,Jane Austen,3.86,data/Mansfield_Park.txt
+95,2638.0,The Idiot,Fyodor Dostoevsky,4.20,data/The_Idiot.txt
+96,null,The Virgin Suicides,Jeffrey Eugenides,3.82,null
+97,376.0,The Plague,Albert Camus,4.02,data/The_Plague.txt
+98,110.0,Tess of the D'Urbervilles,Thomas Hardy,3.82,data/Tess_of_the_D'Urbervilles.txt
+99,null,"Things Fall Apart (The African Trilogy, #1)",Chinua Achebe,3.72,null

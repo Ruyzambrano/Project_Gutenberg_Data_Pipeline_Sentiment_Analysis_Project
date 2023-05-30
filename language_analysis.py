@@ -28,7 +28,10 @@ class Book:
         if batch_size:
             self.doc = self._process_large_text(nlp_creator, batch_size)
         else:
-            self.doc = nlp_creator(self.text)
+            try:
+                self.doc = nlp_creator(self.text)
+            except Exception:
+                self.do_nlp(nlp_creator, 10000)
         self.stop = [token for token in self.doc if not token.is_stop]
         self.vectors = [token.vector for token in self.doc]
         self.polarity = self.doc._.polarity
@@ -171,7 +174,7 @@ class Book:
     def chapter_analysis(self):
         sentiment_score = []
 
-        highest_chapter_polarity = 0
+        highest_chapter_polarity = -1
         lowest_chapter_polarity = 1
         for count, chapter in enumerate(self.chapter_docs, 1):
             sentiment_score.append(chapter._.polarity)
