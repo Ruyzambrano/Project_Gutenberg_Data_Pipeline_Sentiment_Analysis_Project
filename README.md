@@ -48,7 +48,7 @@ The following packages are required to run the project:
 
 ## Note:
 
-In order to do the analysis, you must find the chapter markers first before running the analysis methods.
+In order to do the analysis, you must find the chapter markers manually using regex expressions first before running the analysis methods.
 ## Contributing
 
 Contributions to this project are welcome. You can contribute by opening an issue to report a bug or suggest an enhancement, or by submitting a pull request with your own improvements to the codebase.
