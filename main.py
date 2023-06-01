@@ -716,6 +716,37 @@ war_and_peace.chapter_analysis()
 books.append(war_and_peace)
 
 # %% [markdown]
+# ## The Odyssey
+
+# %%
+with open('data\The_Odyssey.txt', 'r', encoding='UTF-8') as file:
+    
+    # Remove the footnotes
+    book_text = file.read().split('FOOTNOTES')[1]
+    odyssey = Book('The Odyssey', book_text)
+
+chapter_markers = r'\nBOOK .+'
+
+# %%
+odyssey.split_into_chapters(chapter_markers)
+
+# %%
+odyssey.do_nlp(nlp)
+
+# %%
+odyssey.chapter_nlp(nlp)
+
+# %%
+odyssey.blobify()
+
+# %%
+odyssey.get_analysis()
+
+# %%
+odyssey.chapter_analysis()
+books.append(odyssey)
+
+# %% [markdown]
 # ## Conduct similarity analysis and display results
 
 # %%
